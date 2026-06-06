@@ -88,7 +88,7 @@ See [`dashboard/README.md`](dashboard/README.md) to run it.
 
 ```bash
 # 1. Clone and create an environment
-git clone <this-repo-url>
+git clone https://github.com/Por-Favor/wildfire-evacuation-equity.git
 cd wildfire-evacuation-equity
 python -m venv .venv && source .venv/bin/activate    # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
