@@ -1,0 +1,27 @@
+# Dependencies for the notebook (notebooks/notebook_v1_merged.ipynb)
+# and the dashboard (dashboard/app.py).
+# Verified against the actual imports in both.
+
+# --- core data ---
+pandas>=2.0
+numpy>=1.24
+
+# --- analysis / stats / ML ---
+scikit-learn>=1.3
+xgboost>=2.0
+shap>=0.44
+statsmodels>=0.14
+scipy>=1.10
+
+# --- visualization ---
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.18
+
+# --- dashboard ---
+dash>=2.14
+requests>=2.31
+
+# --- geospatial ---
+reverse_geocoder>=1.5.1
+folium>=0.15
